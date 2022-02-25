@@ -41,3 +41,4 @@ jobs:
         username: ${{secrets.USERNAME1}}
         password: ${{secrets.PASSWORD1}}
       run: dotnet run -- ${username} ${password}
+
